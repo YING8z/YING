@@ -1,0 +1,77 @@
+p {
+  font-family: "Sevillana", cursive;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.button {
+    margin-block: 10px;
+    background-color: white;
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 20px;
+    font-family: 'Matemasie',cursive;
+    font-weight: bold;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    border: 1.5px solid #00FFFF;
+    box-shadow: 9px 12px 41px -5px rgba(0,0,0,20);
+-webkit-box-shadow: 9px 12px 41px -5px rgba(0,0,0,20);
+-moz-box-shadow: 9px 12px 41px -5px rgba(0,0,0,20);
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+body {
+   background-image: url(a.jpg);
+   width: 100%;
+   height: 100vh;
+   background-size: auto;
+   background-repeat: no-repeat;
+}
+
+.clr {
+    color: #FF00FF;
+    text-shadow: 
+    0 0 25px rgba(255,0,255,2000)
+}
+
+.bio {
+    color: #FF00FF;
+    text-shadow: 
+    0 0 25px rgb(255, 0, 255,20)
+}
+
+.copyright {
+    color: #fff;
+    font-size: 18px;
+}
+#snow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.snowflake{
+    position: absolute;
+    color: #fff;
+    font-size: 1em;
+    user-select: none;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.9;
+    white-space: nowrap;
+    color: #FF00FF ;
+}
+.pngg {
+   size: auto;
+}
