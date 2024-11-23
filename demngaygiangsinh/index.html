@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marry Christmas </title>
+    <meta name="description" content="Điếm ngày yêu - cùng chờ đợi tới ngày giáng sinh.">
+    <meta property="og:description" content="Điếm ngày yêu - cùng chờ đợi tới ngày giáng sinh.">
+    <meta property="og:image" content="https://i.imgur.com/UjWNwDK.png?<?=bin2hex(random_bytes(5));?>">
+    <link rel="icon" type="image/jpg" href="https://thanhdieu.com/thanhdieuft-data/img/logo.jpg?<?=bin2hex(random_bytes(5));?>">
+    <link href="xh.css?<?=bin2hex(random_bytes(5));?>" rel="stylesheet">
+    <link href="main.css?<?=bin2hex(random_bytes(5));?>" rel="stylesheet">
+  </head>
+  <body>
+    <div class="background-ngayyeu"></div>
+    <div class="diem-ngay-yeu">
+      <div class="inner-glow-ngayyeu">
+        <div class="text-ngayyeu" id="ngay-noel"></div>
+        <div class="text-ngayyeu" id="ngay-yeu"></div>
+      </div>
+    </div>
+    <div id="main">
+      <div id="BackgroundImage"></div>
+      <div id="videoContainer">
+        <video id="video1" muted="muted" preload="auto" onended="ChangeVideo()">
+          <source src="mc.mp4?<?=bin2hex(random_bytes(5));?>" type="video/mp4">
+        </video>
+      </div>
+      <audio id="music1" loop="loop" preload="auto">
+        <source src="Noel.mp3?<?=bin2hex(random_bytes(5));?>" type="audio/mpeg">
+      </audio>
+      <div id="start-noel">
+        <div id="snow"></div>
+      <div id="Container-Jav">
+        <div class="inner-glow-container">
+          <img class="avatar-image" src="thanhhdieu.jpg?<?=bin2hex(random_bytes(5));?>" alt="Ảnh tôi">
+          <div class="text-container">
+       YING <img class="girl-tick" src="banhradiem.webp?<?=bin2hex(random_bytes(5));?>">
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+          <img class="jumping-image" src="love.gif?<?=bin2hex(random_bytes(5));?>" style="">
+        </div>
+        <div class="inner-glow-container">
+          <img class="avatar-image" src="phuongtrang.jpeg?<?=bin2hex(random_bytes(5));?>" alt="Ảnh bạn gái tôi">
+          <div class="text-container">
+     X.Trai <img class="girl-tick" src="dutvodianh.webp?<?=bin2hex(random_bytes(5));?>">
+          </div>
+        </div>
+      </div>
+      <div id="ButtonContainer">
+        <button id="PlayButton" onclick="StartMedia()">❄ Giáng Sinh Vui Vẻ ❄</button>
+      </div>
+    </div>
+    <script src="jquery-3.6.4.min.js?<?=bin2hex(random_bytes(5));?>"></script>
+    <script src="td-main.js?<?=bin2hex(random_bytes(5));?>"></script>
+  </body>
+</html>
