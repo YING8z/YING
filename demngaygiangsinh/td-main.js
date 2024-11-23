@@ -10,7 +10,7 @@ window.onload = function() {
     setInterval(DiemNgayYeu, 1000);
   };
 function DiemNgayYeu() {
-    var ngayyeu = new Date("2023-11-21");
+    var ngayyeu = new Date("2006-11-01");
     var thoigianhientai = new Date();
     var khoangthoigian = thoigianhientai - ngayyeu;
    // var ngaykiniem = 365 - Math.floor(khoangthoigian / (1000 * 60 * 60 * 24));
@@ -20,10 +20,10 @@ function DiemNgayYeu() {
     var giay = Math.floor((khoangthoigian % (1000 * 60)) / 1000);
     var showngayyeu = document.getElementById("ngay-yeu");
    // showngayyeu.innerHTML = "Vẫn còn " + ngaykiniem + " ngày nữa đến ngày kỉ niệm<br/>Đang yêu nhau: " + ngay + " ngày " + gio + " giờ " + phut + " phút " + giay + " giây"
-   showngayyeu.innerHTML = "Đang yêu nhau: " + ngay + " ngày " + gio + " giờ " + phut + " phút " + giay + " giây"
+   showngayyeu.innerHTML = "Đang FA: " + ngay + " ngày " + gio + " giờ " + phut + " phút " + giay + " giây"
   }
   function DiemNguocNoel() {
-    var ngaydennoel = new Date("2023-12-25");
+    var ngaydennoel = new Date("2024-12-25");
     var thoigianhientai = new Date();
     var khoangthoigian = ngaydennoel - thoigianhientai;
     var ngay = Math.floor(khoangthoigian / (1000 * 60 * 60 * 24));
