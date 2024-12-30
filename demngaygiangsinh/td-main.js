@@ -23,7 +23,7 @@ function DiemNgayYeu() {
    showngayyeu.innerHTML = "Đang FA: " + ngay + " ngày " + gio + " giờ " + phut + " phút " + giay + " giây"
   }
   function DiemNguocNoel() {
-    var ngaydennoel = new Date("2024-12-25");
+    var ngaydennoel = new Date("2025-12-25");
     var thoigianhientai = new Date();
     var khoangthoigian = ngaydennoel - thoigianhientai;
     var ngay = Math.floor(khoangthoigian / (1000 * 60 * 60 * 24));
