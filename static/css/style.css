@@ -102,7 +102,7 @@ html[data-theme="Light2"]  {
 
 html {
     /* --main-bg-color: linear-gradient(50deg, #a2d1ff, #ffffff);"*/
-    --main-bg-color: url(background.jpeg);
+    --main-bg-color: url(../img/background.jpeg);
     --main-text-color: #eeeeee;
     --gradient-start: #bd34fe;
     --gradient-middle: #e0321b;
